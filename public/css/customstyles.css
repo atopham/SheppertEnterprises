@@ -1,0 +1,70 @@
+/* The sidebar menu */
+.sidenav {
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 200px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    /* z-index: 2; Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #111; /* Black */
+    /* overflow-x: hidden; Disable horizontal scroll */
+    padding-top: 100;
+    /* top:100; */
+  }
+  
+  /* The navigation menu links */
+  .sidenav a {
+    /* top:100; */
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+  }
+
+  .sidenav-text {
+    padding-top: 80px;
+  }
+  
+  /* When you mouse over the navigation links, change their color */
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  /* Style page content */
+  .main {
+    margin-left: 200px; /* Same as the width of the sidebar */
+    padding: 0px 10px;
+  }
+
+  .to-front {
+      z-index: 1;
+  }
+
+  .eth-bal {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+  }
+
+  .footer-rel {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    /* z-index: 1; */
+  }
+
+  .footer-fix{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+  }
+
+  .navbar-fix{
+    position: fixed;
+  }
